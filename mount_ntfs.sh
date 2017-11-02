@@ -19,19 +19,18 @@ fi
 
 WRITE_STR='UUID='$UUID' none ntfs rw,auto,nobrowse'
 
-
-echo '1. backup /etc/fstab to ~/Desktop/fstab.bak'
+echo 'MountNTFSForMac'
+echo 'backup /etc/fstab to ~/Desktop/fstab.bak ...'
 cp /etc/fstab ~/Desktop/fstab.bak
-
-echo '2. disk is '$DISK', UUID is '$UUID', will write:'
+echo 'backup done'
 echo ''
-echo $WRITE_STR'\tto\t/etc/fstab'
-echo ''
+echo 'disk is '$DISK', UUID is '$UUID', will write:'
+echo $WRITE_STR'\tto\t/etc/fstab ...'
 echo $WRITE_STR >> /etc/fstab
 echo 'write done'
 echo ''
-echo '3. unmount and mount your ntfs device'
-echo ''
-echo '4. open /Volumes/ and you will find your device'
-echo ''
-echo '4.1 you might do ln -s /Volumes/your_device_name ~/Desktop/your_device_name'
+echo 'Please follow the steps below:'
+echo '1. unmount and mount your ntfs device'
+echo '2. open /Volumes/ and you will find your device'
+echo '2.1 you might do ln -s /Volumes/your_device_name ~/Desktop/your_device_name'
+echo 'Have Fun!'
