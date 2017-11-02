@@ -8,7 +8,8 @@ mount a ntfs device for mac
 1. uninstall your device
 1. install your device again
 1. open /Volumes
-Have Fun!
+
+**Have Fun!**
 
 ## How to show the device in your desktop
 1. run `ln -s /Volumes/your_device_name ~/Desktop/your_device_name`
