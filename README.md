@@ -10,7 +10,7 @@ mount a ntfs device for mac
 1. open /Volumes
 Have Fun!
 
-## How to show the drive in your desktop
+## How to show the device in your desktop
 1. run `ln -s /Volumes/your_device_name ~/Desktop/your_device_name`
 
 ##  使用说明
